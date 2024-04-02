@@ -6,10 +6,12 @@ Soln: The project is implemented using the Python programming language, incorpor
 
 
 b.	Any setup instructions.
+
 Soln: No setup is required for the project.
 
 
 c.	Any assumptions you have made
+
 Soln: The project file is named PythonDeveloperCodingTest.py. Upon running the Python file, a page will display "Welcome to the User Login System" with three choices.
 The first choice is "Register," which is defined as the `register_user` function within the Python file. This function is connected to the User.json file. Its purpose is to allow users to register their accounts. During registration, the user is prompted to enter their ID, name, phone number, password, and email address. After completing the registration, the system will display "Registration successful!" and return to the home page with the same three options.
 The second choice is the "Login" option, defined as the `login` function. This function verifies whether the entered email address and password match the records in the User.json file. If the credentials are correct, the page will display "Login successful! Welcome, [user's name]" and present five additional options.
@@ -53,8 +55,10 @@ If a user selects the third choice, "Exit," the page displays "Exiting..." and t
 
 
 d.	How much of the problem you were able to solve
+
 Soln: Selecting the appropriate database was one of the most challenging aspects of the project. However, after careful consideration and evaluation, a suitable solution was found. The overall system design encompasses various functionalities such as user registration, login and movie rating. This design allows for a comprehensive and user-friendly user login system, facilitating smooth navigation and interaction for users.
 
 
 e.	Problems faced with incomplete parts (if any)
+
 Soln: The calculation of the average rating is an incomplete part of the system. This feature aims to provide users with valuable insights by displaying the average rating for a particular movie. However, this functionality requires further development and integration into the system to ensure accurate and reliable results.
